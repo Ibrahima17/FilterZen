@@ -1,0 +1,63 @@
+/* Réduction de la taille du popup et alignement du contenu */
+
+body {
+    width: 250px;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+}
+
+
+/* Style du logo */
+
+#filterzen-logo {
+    width: 24px;
+    height: auto;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+
+/* Style du titre */
+
+h1 {
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+}
+
+
+/* Style de l'input */
+
+#keyword-input {
+    width: calc(100% - 20px);
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+
+/* Style du bouton */
+
+#add-button {
+    padding: 6px 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#add-button:hover {
+    background-color: #0056b3;
+}
+
+
+/* Correction du texte "Mots-clés sensibles" */
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}

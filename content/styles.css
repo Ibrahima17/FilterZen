@@ -1,0 +1,29 @@
+.filterzen-hidden {
+    display: none !important;
+    /* Forcer le masquage complet */
+    visibility: hidden;
+    /* Rendre invisible pour des mesures de sécurité supplémentaires */
+}
+
+.filterzen-warning {
+    border: 2px solid red;
+    background-color: #ffe6e6;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 14px;
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+
+.filterzen-warning button {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.filterzen-warning button:hover {
+    background-color: #e60000;
+}
